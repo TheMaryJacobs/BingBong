@@ -1,2 +1,0 @@
-# BingBong
-Created with CodeSandbox
