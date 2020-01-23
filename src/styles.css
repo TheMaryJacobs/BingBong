@@ -2,3 +2,13 @@
   font-family: sans-serif;
   text-align: center;
 }
+
+.container {
+  height: 300px;
+  width: 400px;
+  background-color: lightgray;
+  border: 2px solid black;
+  border-radius: 4px;
+  margin: 20px auto;
+  position: relative;
+}
