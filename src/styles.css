@@ -4,11 +4,15 @@
 }
 
 .container {
-  height: 300px;
-  width: 400px;
-  background-color: lightgray;
-  border: 2px solid black;
+  height: 500px;
+  width: 800px;
+  background-image: url(https://cdn.spacetelescope.org/archives/images/screen/heic1118a.jpg);
+  background-position: center;
+
+  /* background-color: rgba(255, 192, 203, 0.411); */
+
   border-radius: 4px;
   margin: 20px auto;
   position: relative;
+  box-shadow: 20px 20px 15px -13px rgba(0, 0, 0, 0.9);
 }
