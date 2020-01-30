@@ -11,7 +11,7 @@ export default function BlackHole() {
       if (pos.x + delta.x > 800 - 50 || pos.x + delta.x < 0) {
         dx = -dx;
       }
-      if (pos.y + delta.y > 500 - 50 || pos.y + delta.y < 0) {
+      if (pos.y + delta.y > 400 - 50 || pos.y + delta.y < 0) {
         dy = -dy;
       }
       setDelta({ x: dx, y: dy });

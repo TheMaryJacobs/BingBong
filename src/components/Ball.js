@@ -11,7 +11,7 @@ export default function Ball() {
       if (pos.x + delta.x > 800 - 20 || pos.x + delta.x < 0) {
         dx = -dx;
       }
-      if (pos.y + delta.y > 500 - 20 || pos.y + delta.y < 0) {
+      if (pos.y + delta.y > 600 - 20 || pos.y + delta.y < 0) {
         dy = -dy;
       }
       setDelta({ x: dx, y: dy });
